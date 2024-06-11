@@ -3,11 +3,11 @@
 Task: 0,
 """
 import asyncio
-import typing
+import typing as ty
 import random
 
 
-async def async_generator() -> typing.Generator[float, None, None]:
+async def async_generator() -> ty.Generator[float, None, None]:  # type: ignore
     """
     Task: 0, The coroutine will loop 10 times,
     each time asynchronously wait 1 second, then
