@@ -7,7 +7,7 @@ import typing
 import random
 
 
-async def async_generator() -> typing.AsyncGenerator[float, None]:
+async def async_generator() -> typing.Generator[float, None, None]:
     """
     Task: 0, The coroutine will loop 10 times,
     each time asynchronously wait 1 second, then
